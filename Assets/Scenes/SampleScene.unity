@@ -1074,7 +1074,7 @@ MonoBehaviour:
   orientation: {fileID: 1218535268}
   wallDistance: 0.6
   minimumJumpHeight: 1.5
-  wallRunGravity: 1
+  wallRunGravity: 0.5
   wallRunJumpForce: 1
   cam: {fileID: 687976040}
   fov: 90
