@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78497299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.82, y: 3.08, z: 9.08}
-  m_LocalScale: {x: 1.4754, y: 6, z: 25.42}
+  m_LocalPosition: {x: 15.82, y: 3.08, z: 9.42}
+  m_LocalScale: {x: 1.4754, y: 6, z: 11.6}
   m_Children: []
   m_Father: {fileID: 1374229409}
   m_RootOrder: 4
@@ -856,8 +856,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336291599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.95, y: 3.08, z: 9.08}
-  m_LocalScale: {x: 1.4754, y: 6, z: 25.42}
+  m_LocalPosition: {x: 10.95, y: 3.08, z: 0.72}
+  m_LocalScale: {x: 1.4754, y: 6, z: 11.58}
   m_Children: []
   m_Father: {fileID: 1374229409}
   m_RootOrder: 5
@@ -1010,12 +1010,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orientation: {fileID: 1218535268}
-  moveSpeed: 6
+  moveSpeed: 10
   airMultiplier: 0.4
   walkSpeed: 4
   sprintSpeed: 6
   acceleration: 10
-  jumpForce: 15
+  jumpForce: 12
   jumpKey: 32
   sprintKey: 304
   groundDrag: 6
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orientation: {fileID: 1218535268}
   wallDistance: 0.6
-  minimumJumpHeight: 1.5
+  minimumJumpHeight: 2
   wallRunGravity: 0.5
   wallRunJumpForce: 1
   cam: {fileID: 687976040}
